@@ -15,7 +15,7 @@ gulp.task('dist',function(){
     gulp.watch('src/index.html',['copy']);
     gulp.watch('src/index.html',['style']);
 });
-
+console.log('test');
 gulp.task('style',function(){
     //复制文件
     gulp.src('src/styles/*.less')
